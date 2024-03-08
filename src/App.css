@@ -34,7 +34,9 @@ body {
 .info--image {
   width: 100%;
   height: 317px;
-  border-radius: 10px 10px 0 0
+  border-radius: 10px 10px 0 0;
+  background-position: center;
+  background-size: cover;
 }
 
 .info--name {
@@ -48,7 +50,7 @@ body {
   font-weight: 400;
   color: #F3BF99;
   margin-top: .8em;
-  margin-bottom: .8em
+  margin-bottom: .6em
 }
 
 .info--website_link {
@@ -67,7 +69,7 @@ body {
 .info--btn_links {
   display: flex;
   justify-content: center;
-  gap: 1em;
+  gap: 3em;
   align-items: center;
   margin-top: 1.3em;
 
@@ -108,11 +110,17 @@ body {
 }
 
 .main h2 {
-  font-size: 16px;
+  font-size: 1.3rem;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+.main p {
+  text-align: left;
+  font-size: .9rem;
+  width: 105%;
 }
 
 /* Footer */
@@ -123,6 +131,7 @@ body {
   align-items: center;
   font-size: 2.5rem;
   padding: 0 1.5em;
+  border-top: 1px solid #D1D5DB;
 }
 
 .footer i {
